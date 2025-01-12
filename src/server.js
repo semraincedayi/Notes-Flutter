@@ -7,7 +7,7 @@ const Note=require('./models/Note');
 const bodyParser=require('body-parser');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
-mongoose.connect("mongodb+srv://incedayisemra35:41292@cluster0.9rkeh.mongodb.net/Cluster0").then(function () {
+mongoose.connect("mongodb+srv://incedayisemra35:41292@cluster0.w0yok.mongodb.net/Cluster0").then(function () {
     
     app.get("/", function (req,res) {
         const response={message: "API works!"};
